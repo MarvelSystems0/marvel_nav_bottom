@@ -7,10 +7,9 @@ so can customize designing as you want, by controlling size, colors, animated it
 
 <p align="center">
 ![Alt text](ScreenShot/img1.png?raw=true "Optional Title")
-<img src="../ScreenShot/img1.png" width=250>
-<img src="../ScreenShot/img2.png" width=250>
-<img src="ScreenShot/img3.png" width=250>
-  
+<img src="../SceenShot/img1.png" width=250>
+  <img src="../SceenShot/img2.png" width=250>
+  <img src="../SceenShot/img3.png" width=250>
 </p>
   
 ## Features  
@@ -32,7 +31,8 @@ so can customize designing as you want, by controlling size, colors, animated it
     //so to use lib call it as  up line
 
 ### MarvelNavBar using:
-....
+
+//code
   bottomNavigationBar:
       MarvelNavBar(
         items: [
@@ -64,8 +64,7 @@ so can customize designing as you want, by controlling size, colors, animated it
         onSelectTab: (index) {
           onSelectedTab(index);
         },
-      ),
-      body: ....
-      
- # To more details visit 
+      );
+    
+ ### To more details visit 
  https://pub.dev/packages/marvel_nav_bar
