@@ -6,10 +6,11 @@ so can customize designing as you want, by controlling size, colors, animated it
 
 
 <p align="center">
-![Alt text](SceenShot/img1.png?raw=true "Optional Title")
-<img src="../SceenShot/img1.png" width=250>
-  <img src="../SceenShot/img2.png" width=250>
-  <img src="../SceenShot/img3.png" width=250>
+
+<img src="SceenShot/img1.png" width=250>
+<img src="SceenShot/img2.png" width=250>
+<img src="SceenShot/img3.png" width=250>
+
 </p>
   
 ## Features  
@@ -30,10 +31,12 @@ so can customize designing as you want, by controlling size, colors, animated it
     import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
     //so to use lib call it as  up line
 
-### MarvelNavBar using:
 
-//code
-  bottomNavigationBar:
+### MarvelNavBar using:
+this below inside bottomNavigationBar
+
+bottomNavigationBar:
+
       MarvelNavBar(
         items: [
           MarvelNavItem(iconData: Icons.settings,label: 'setting',),
