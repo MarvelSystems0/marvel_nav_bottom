@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'marvel_nav_bar'),
     );
   }
 }
@@ -39,15 +39,18 @@ class _MyHomePageState extends State<MyHomePage> {
   List<Widget>_listItem=
   [
     Container(child: Center(child: Column(children: <Widget>[
-      Icon(Icons.settings),
+      SizedBox(height: 100,),
+      Icon(Icons.settings,size: 60,),
       Text('Setting'),
     ],),),),
     Container(child: Center(child: Column(children: <Widget>[
-      Icon(Icons.home),
+      SizedBox(height: 100,),
+      Icon(Icons.home,size: 60,),
       Text('Home'),
     ],),),),
     Container(child: Center(child: Column(children: <Widget>[
-      Icon(Icons.person),
+      SizedBox(height: 100,),
+      Icon(Icons.person,size: 60,),
       Text('Profile'),
     ],),),),
   ];
