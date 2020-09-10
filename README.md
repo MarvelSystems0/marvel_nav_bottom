@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-f
-=======
-# marvel_nav_bar
+## marvel_nav_bar
 
 marvel_nav_bar support custom bottom navigation bar, with smart design that allow animations item when seleced,
 so can customize designing as you want, by controlling size, colors, animated items.
@@ -37,8 +34,8 @@ so can customize designing as you want, by controlling size, colors, animated it
 this below inside bottomNavigationBar
 
 
-,,,
-MarvelNavBar(
+
+   MarvelNavBar(
         items: [
           MarvelNavItem(iconData: Icons.settings,label: 'setting',),
           MarvelNavItem(iconData: Icons.home,label: 'home',),
@@ -68,11 +65,11 @@ MarvelNavBar(
         onSelectTab: (index) {
           onSelectedTab(index);
         },
-      ),
+      )
+     ;
     body: ...
-    ,,,
     
  ### To more details visit 
  http://marvelsystems.com.sa/
  https://pub.dev/packages/marvel_nav_bar
->>>>>>> ce136cebfc9537fb65f3200cf1f1c057db299b89
+
