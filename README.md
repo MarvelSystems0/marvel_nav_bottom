@@ -68,7 +68,7 @@ body: ...
 
  
  ### To more details visit 
- <img src="SceenShot/m.png" class="alrt-center" width=20></img>
+ <img src="SceenShot/m.png" width=20></img>
  http://marvelsystems.com.sa/
  <br>
  https://pub.dev/packages/marvel_nav_bar
