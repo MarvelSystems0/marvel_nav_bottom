@@ -29,9 +29,47 @@ so can customize designing as you want, by controlling size, colors, animated it
     import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
     //so to use lib call it as  up line
 
+### Ways of uses:
+
+```bottomNavigationBar:
+   MarvelNavBar(
+        items: [
+          MarvelNavItem(iconData: Icons.settings,label: 'setting',),
+          MarvelNavItem(iconData: Icons.home,label: 'home',),
+          MarvelNavItem(iconData: Icons.person,label: 'profile',),
+        ],
+        theme:
+        MarvelNavTheme(
+          unselectedItemIconColor: Colors.black45,
+          unselectedItemTextStyle: TextStyle(
+              fontSize: 1.0,
+              color: Colors.black45,
+              fontWeight: FontWeight.normal,
+              height: 0),
+          selectedItemLabelColor: Colors.blue,
+          showSelectedItemShadow: true,
+          unselectedItemBackgroundColor: Colors.transparent,
+          selectedItemIconColor: Colors.white,
+          selectedItemBackgroundColor: Colors.blue,
+          unselectedItemLabelColor: Colors.white,
+          barBackgroundColor: Colors.white,
+          selectedItemTextStyle:TextStyle(
+              fontSize: 13.0,
+              color: Colors.blue,
+              fontWeight: FontWeight.bold,
+              height: 1.2),),
+        selectedIndex: currentIndex,    
+        onSelectTab: (index) {
+          onSelectedTab(index);
+        },
+      ),
+body: ...
+```
+
  
  ### To more details visit 
- <img src="SceenShot/img1.png" width=50></img>
+ <img src="SceenShot/m.png" class="alrt-center" width=20></img>
  http://marvelsystems.com.sa/
+ <br>
  https://pub.dev/packages/marvel_nav_bar
 
