@@ -1,11 +1,13 @@
 name: marvel_nav_bar
 description: package support bottom navigation with moving item selected
-version: 0.0.1
+version: 0.0.0
 author: mohammed alsultani<alsultani8886@gmail.com>
-homepage: https://github.com/MohammedAlSultani/marvel_nav_bottom
+homepage: http://marvelsystems.com.sa
+#  &https://github.com/MohammedAlSultani/marvel_nav_bottom
 
 environment:
   sdk: ">=1.19.0 <3.0.0"
+#  sdk: "<3.0.0"
 
 dependencies:
   flutter:
