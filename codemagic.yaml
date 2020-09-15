@@ -6,12 +6,12 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "marvel_nav_bottom"
-                XCODE_SCHEME: "marvel_nav_bottom"
+                XCODE_WORKSPACE: "runner"
+                XCODE_SCHEME: "runner"
             xcode: latest
             cocoapods: default
         scripts:
-            - xcodebuild build -workspace "marvel_nav_bottom.xcworkspace" -scheme "marvel_nav_bottom" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+            - xcodebuild build -workspace "runner.xcworkspace" -scheme "runner" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         artifacts:
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
